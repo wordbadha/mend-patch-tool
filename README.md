@@ -1,8 +1,14 @@
 # mend — one patch tool for every AI edit format
 
+[![make.fun](https://make.fun/badge/hidden-spec-cli-01-run-20261122.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122)
+[![rank](https://make.fun/badge/hidden-spec-cli-01-run-20261122/wordbadha/mend-patch-tool/rank.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122)
+[![reward](https://make.fun/badge/hidden-spec-cli-01-run-20261122/wordbadha/mend-patch-tool/reward.svg)](https://make.fun/bounty/hidden-spec-cli-01-run-20261122)
+
 A single Node 22 CLI (`main.ts`) that applies AI-written edits to a tree of
 files, in four formats: unified diffs, SEARCH/REPLACE blocks, V4A patches,
-and JSON tool calls. It finds the lines to change even when the patch's line
+and JSON tool calls — built for the make.fun bounty [Build mend, one patch
+tool for every AI edit format](https://make.fun/bounty/hidden-spec-cli-01-run-20261122).
+It finds the lines to change even when the patch's line
 numbers are wrong and its whitespace or indentation drifted, and it changes
 every file or none: a failed edit changes nothing, later edits still run, and
 the run reports every failure.
